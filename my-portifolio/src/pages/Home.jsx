@@ -1,10 +1,15 @@
 export function Home() {
  return (
    <>
+     {/* <div id="name">
+        <b>Wendy Gerrar Otu</b>
+     </div> */}
+     <img src="c:\Users\wgerr\OneDrive\Desktop\New folder (2)\IMG_4987.jpeg" alt="Wendy Gerrar Otu" className="profile-pic">
+        </img>
      <div id="intro">
-       <h1>
+       <h2>
          Hi, I'm Wendy
-       </h1> 
+       </h2> 
      </div>
      
 

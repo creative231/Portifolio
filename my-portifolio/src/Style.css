@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(8, 17, 141);
+    color: white; 
+    font-family: sans-serif; 
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    display: flex; 
+    gap: 35px;
+  padding: 16px;
+}
+
+nav {
+    background-color: #c0d0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav .links {
+    margin-left: auto;  /* pushes all links to the far right */
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social-links {
+    display: flex;       /* horizontal layout */
+    gap: 20px;           /* spacing between links */
+    margin-left: auto;    /* pushes the whole container to the right */
+}
+.social-links a {
+    color: rgb(32, 1, 1);
+    text-decoration: none;
+    font-weight: bold;
+}
+.social-links a:hover {
+    color: #0073b1; /* example hover color */
+}

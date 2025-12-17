@@ -1,9 +1,9 @@
 export function Contact() {
     return (
         <section>
-        <div>
+        {/* <div>
         <h2>Contact</h2>
-        </div>
+        </div> */}
 
         <div>
         <p>
@@ -12,15 +12,13 @@ export function Contact() {
         </p>
         </div>
 
-        <div>
-            <a href= "wgerrar2002@gmail.com">
-                Email
-            </a>
-            <a href= "https://www.linkedin.com/in/wendy-gerrar-otu-283752246">
-                LinkedIn
-            </a>
-           
-        </div>
+       <div className="social-links">
+    <a href="mailto:wgerrar2002@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/wendy-gerrar-otu-283752246">LinkedIn</a>
+    <a href="https://github.com/creative231">GitHub</a>
+</div>
         </section>
-    )
-}
+    );
+};
+
+export default Contact;
