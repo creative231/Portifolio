@@ -5,6 +5,14 @@ import {Projects} from './pages/Projects';
 import { Contact} from './pages/Contact';
 import {UserUsername} from './components/UserUsername';
 import { Navbar } from './components/Navbar';
+// import {Images} from "../images/IMG_4987.jpeg";
+
+<img
+  src={Images}
+  alt="Wendy Gerrar Otu"
+  className="profile-pic"
+/>
+
 
 
 export default function App(){
